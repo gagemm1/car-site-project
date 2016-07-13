@@ -1,0 +1,134 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Gage's Ford Dealership & Motors</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link href="fordStyle.css" rel="stylesheet" type="text/css" />
+<script>
+/*<![CDATA[*/
+window.defaultStatus="Welcome to Gage's Ford Motors Page!";
+
+var carWindow;
+function showCar(linkTarget){
+    var propertyWidth=400;
+    var propertyHeight=375;
+    var winLeft=(screen.width-propertyWidth)/2;
+    var winTop=(screen.height-propertyHeight)/2;
+    var winOptions="toolbar=no,menubar=no,location=no,scrollbars=no,resizable=no";
+    winOptions+=",width=" + propertyWidth;
+    winOptions+=",height=" + propertyHeight;
+    winOptions+=",left=" + winnLeft;
+    winOptions+=",top=" + winTop;
+    carWindow=window.open(linkTarget, "carInfo", winOptions);
+    carWindow.focus();
+}
+
+var curImage="banner1";
+function bannerAd(){
+    if (curImages=="banner2") {
+        document.images[1].src="images/banner1.gif";
+        curImages="banner1";
+    }
+    else {
+        document.images[1].scr="images/banner2.gif";
+        curImage="banner2";
+    }
+}
+/*]]>*/
+</script>
+</head>
+<body onload="var changeImages=setInterval('bannerAd()',2000);">
+    <table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#000000">
+        <tr>
+            <td height="87" align="left" valign="top" class="ImageBack">
+                <table width="770" border="0" cellpadding="0" cellspacing="0" class="ImageBack2">
+                    <tr>
+                        <td height="87" align="left" valign="top" class="ImageBack">
+                            <table width="770" border="0" cellpadding="0" cellspacing="0" class="ImageBack2">
+                                <tr>
+                                    <td>
+                                        <img src="images/fordMotorCo.jpg" width="320" height="250" alt="Company logo" /></td>
+                                    <td>
+                                        <img src="images/fordRaptor.jpg" width="300" height="100" alt="Banner ads" onmousedown="this.src='images/fordLogo.jpg'" onmouseup="this.src='images/fordRaptor.jpg'" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td height="24" align="left" valign="top" class="ImageBack3">
+                <img src="images/greybar.gif" width="770" height="24" alt="Formatting element" />
+            </td>
+        </tr>
+        <tr>
+            <td class="ImageBack3">
+                <strong>Click the images for more info</strong>
+            </td>
+        </tr>
+        <tr>
+            <td height="108" align="left" valign="top" bgcolor="#3366FF">
+                <a href="f150XL.html" onmouseover="document.messageForm.carLink.value='F-150 XL MSRP $25,800'" onmouseout="document.messageForm.carLink.value=''" target="carInfo">
+                    <img src="images/f150XL.jpg" width="154" height="108" alt="Formatting element" class="NoBorder" /></a>
+                <a href="f150XLT.html" onmouseover="document.messageForm.carLink.value='F-150 XLT MSRP $31,085'" onmouseout="document.messageForm.carLink.value=''" target="carInfo">
+                    <img src="images/f150xlt.jpg" width="154" height="108" alt="Formatting element" class="NoBorder" /></a>
+                <a href="f150Lariat.html" onmouseover="document.messageForm.carLink.value='F-150 Lariat MSRP $39,075'" onmouseout="document.messageForm.carLink.value=''" target="carInfo">
+                    <img src="images/f150Lariat.jpg" width="154" height="108" alt="Formatting element" class="NoBorder" /></a>
+                <a href="f150KingRanch.html" onmouseover="document.messageForm.carLink.value='F-150 King Ranch MSRP $48,885'" onmouseout="document.messageForm.carLink.value=''" target="carInfo">
+                    <img src="images/f150KingRanch.jpg" width="154" height="108" alt="Formatting element" class="NoBorder" /></a>
+                <a href="f150Platinum.html" onmouseover="document.messageForm.carLink.value='F-150 Platinum MSRP $51,350'" onmouseout="document.messageForm.carLink.value=''" target="carInfo">
+                    <img src="images/f150Platinum.jpg" width="154" height="108" alt="Formatting element" class="NoBorder" /></a>
+            </td>
+        </tr>
+        <tr>
+            <td align="left" valign="top" bgcolor="#FFFFFF">
+                <table width="750" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width="468" align="center" valign="top">
+                            <table width="90%" border="0" cellpadding="0" cellspacing="0" class="text">
+                                <tr>
+                                    <td>
+                                        <form action="" name="messageForm">
+                                            <p><input type="text" name="carLink" size="40" style="color:Blue; font-weight:bold; border-style:none; border-color:inherit; border-width:medium; background-color:Transparent"/></p>
+                                        </form>
+                                        <p>
+                                            <h2>Safety is our number one concern</h2>
+                                        </p>
+                                        <p>
+                                            The ford motor company, the largest auto group in the world, has not gotten there without
+                                            putting an enormous amount of thought into the safety of our vehicles. This holds true for
+                                            the newest Ford F Series. </p>
+                                        <p>
+                                            With our new aluminum chassis, force in an accident is now transferred around the passengers
+                                            in all 4 seats to a huge metal bar that we think will help. We didn't feel like putting too
+                                            much effort into it this time around, so good luck. We were only interested in your money.
+                                        </p>
+                                        <p>
+                                            We felt we could say all this after reassuring you in the first parts of the paragraph because
+                                            seriously, who reads the rest of the fine print? Nobody that's who. We don't even drive our own
+                                            vehicles but we sure are proud of them. Please don't sue us, we aren't responsible for anything.
+                                            Even though we designed the vehicle, we don't really care about your safety after all, just money.</p>
+                                        <p>
+                                        <a href="finalProjectEmail.html">Click here to subscribe to the e-mail updates server </a>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td width="282" valign="top">
+                            <img src="images/f150Cutaway.jpg" width="799" height="499" alt="Formatting element" />
+                        </td>
+                    </tr>
+                    <tr valign="bottom">
+                        <td height="25" colspan="2" align="center">&copy; 1887 Ford Motor Company, Inc. All rights
+                            reserved. </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
